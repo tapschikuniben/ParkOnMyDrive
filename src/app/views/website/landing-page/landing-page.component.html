@@ -1,0 +1,283 @@
+<mat-toolbar class="d-flex justify-content-between">
+    <img src="./../../../../assets/images/LandingPage/ParkOnMyDriveLogo.png">
+
+    <div class="nav">
+        <div class="links d-flex align-items-center">
+            <a mat-list-item [routerLink]="['']" [routerLinkActive]="['is-active']"> How It Works</a>
+            <a mat-list-item [routerLink]="['']" [routerLinkActive]="['is-active']"> Popular Locations</a>
+            <a mat-list-item [routerLink]="['']" [routerLinkActive]="['is-active']"> Company</a>
+            <a mat-list-item [routerLink]="['']" [routerLinkActive]="['is-active']"> Help</a>
+            <a mat-list-item [routerLink]="['']" [routerLinkActive]="['is-active']"> Login</a>
+        </div>
+
+        <div class="button">
+            <button class="signup-btn" mat-raised-button>Sign Up</button>
+        </div>
+    </div>
+</mat-toolbar>
+
+<div class="slider d-flex justify-content-center">
+    <div class="slider-info d-flex">
+        <div class="left">
+            <h2>Find and book your parking space</h2>
+
+            <br />
+            <div class="slider-point d-flex align-items-center">
+                <div class="img"><img src="./../../../../assets/images/LandingPage/Vector.png"></div> &nbsp; &nbsp;
+                <div class="point">Space availability guarantee</div>
+            </div>
+
+            <div class="slider-point d-flex align-items-center">
+                <div class="img"><img src="./../../../../assets/images/LandingPage/Vector.png"></div> &nbsp; &nbsp;
+                <div class="point">Trusted by 10M+ people</div>
+            </div>
+        </div>
+
+        <div class="right">
+            <img src="./../../../../assets/images/LandingPage/Rectangle 10.png">
+        </div>
+    </div>
+</div>
+
+<div class="slider-bottom d-flex justify-content-center">
+    <div class="slider-bottom-holder">
+        <div class="top d-flex">
+            <div class="top-left d-flex align-items-center">Parking Space</div>
+            <div class="top-right">EV Charging</div>
+        </div>
+        <div class="bottom">
+            <div class="input-bundle-holder d-flex justify-content-between">
+                <div class="input-bundle d-flex align-items-center">
+                    <span><img src="./../../../../assets/images/LandingPage/clock.png"></span> &nbsp;
+                    <input type="text" class="form-control" placeholder="Monthly"> &nbsp;
+                    <span><img src="./../../../../assets/images/LandingPage/dropdown.png"></span>
+                </div>
+
+                <div class="input-bundle d-flex align-items-center">
+                    <span><img src="./../../../../assets/images/LandingPage/map-icon.png"></span> &nbsp;
+                    <input type="text" class="form-control" placeholder="Where do you want to park"> &nbsp;
+                    <span><img src="./../../../../assets/images/LandingPage/where-to-park2.png"></span>
+                </div>
+
+                <div class="input-bundle d-flex align-items-center">
+                    <span><img src="./../../../../assets/images/LandingPage/calendar-icon.png"></span> &nbsp;
+                    <input type="text" class="form-control" placeholder="14 / 03 / 22"> &nbsp;
+                </div>
+
+                <div class="input-bundle d-flex align-items-center">
+                    <span><img src="./../../../../assets/images/LandingPage/calendar-icon.png"></span> &nbsp;
+                    <input type="text" class="form-control" placeholder="19 / 03 / 22"> &nbsp;
+                </div>
+                <div>
+                    <button class="search-btn" mat-raised-button>Search</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<section class="d-flex justify-content-center">
+    <div class="section-container">
+        <div class="section-header d-flex justify-content-center">
+            <h2>How it works</h2>
+        </div>
+
+        <div class="d-flex">
+            <div class="left">
+                <img src="./../../../../assets/images/LandingPage/Rectangle 11.png">
+            </div>
+            <div class="right d-flex justify-content-center align-items-center">
+                <div class="book-info">
+                    <div class="heading d-flex">
+                        <div class="d-flex align-items-center">
+                            <h2>Booking your space</h2>
+                        </div> &nbsp;&nbsp;
+
+                        <div class="d-flex align-items-center"><img src="./../../../../assets/images/LandingPage/car-icon.png"></div>
+                    </div>
+
+                    <div class="stepper-holder">
+                        <mat-vertical-stepper [linear]="false" #stepper>
+                            <mat-step [stepControl]="firstFormGroup">
+                                <form [formGroup]="firstFormGroup">
+                                    <ng-template matStepLabel>
+                                        <span class="step-header">Search form any where</span>
+                                    </ng-template>
+                                    <p>Search and find parking near you by web or app </p>
+                                </form>
+                            </mat-step>
+                            <mat-step [stepControl]="secondFormGroup">
+                                <form [formGroup]="secondFormGroup">
+                                    <ng-template matStepLabel>
+                                        <span>Book in advance or in demand</span>
+                                    </ng-template>
+                                    <p>Search and find parking near you by web or app </p>
+                                </form>
+                            </mat-step>
+                            <mat-step>
+                                <ng-template matStepLabel>
+                                    <span>Park with confidence</span>
+                                </ng-template>
+                                <p>Manage your parking session from any where </p>
+                            </mat-step>
+                        </mat-vertical-stepper>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<section class="download-app d-flex justify-content-center">
+    <div class="section-container">
+
+        <div class="section-container-info d-flex">
+            <div class="left">
+                <div class="left-section-header">
+                    <h2>Download the app</h2>
+                </div>
+                <div>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra.
+                    </p>
+                </div>
+                <div>
+                    <img src="./../../../../assets/images/LandingPage/google-play.png"> &nbsp; &nbsp;
+                    <img src="./../../../../assets/images/LandingPage/app-store.png">
+                </div>
+            </div>
+
+            <div class="right">
+                <div class="img-holder">
+                    <img src="./../../../../assets/images/LandingPage/Rectangle 13.png">
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+</section>
+
+
+<section class="d-flex justify-content-center">
+    <div class="section-container">
+        <div class="section-header d-flex justify-content-center">
+            <h2>Earnings calculator </h2>
+        </div>
+
+        <div>
+            <img src="./../../../../assets/images/LandingPage/Rectangle 14.png" width="100%">
+        </div>
+    </div>
+</section>
+
+<br />
+<br />
+<section>
+    <div class="section-container">
+        <div class="slider-bottom d-flex justify-content-center">
+            <div class="slider-bottom-holder">
+                <div class="top d-flex">
+                    <div class="top-left d-flex align-items-center">Parking Space</div>
+                    <div class="top-right">EV Charging</div>
+                </div>
+                <div class="bottom">
+                    <div class="input-bundle-holder d-flex justify-content-between">
+
+                        <div class="input-bundle d-flex align-items-center">
+                            <span><img src="./../../../../assets/images/LandingPage/map-icon.png"></span> &nbsp;
+                            <input type="text" class="form-control" placeholder="Where do you want to park"> &nbsp;
+                            <span><img src="./../../../../assets/images/LandingPage/where-to-park2.png"></span>
+                        </div>
+
+                        <div class="input-bundle d-flex align-items-center">
+                            <span><img src="./../../../../assets/images/LandingPage/clock.png"></span> &nbsp;
+                            <input type="text" class="form-control" placeholder="Bacement"> &nbsp;
+                            <span><img src="./../../../../assets/images/LandingPage/dropdown.png"></span>
+                        </div>
+
+                        <div class="input-bundle d-flex align-items-center">
+                            <span class="show-ft">1900</span> &nbsp;
+                            <input type="text" class="form-control" placeholder="Sq Ft"> &nbsp;
+                            <span><img src="./../../../../assets/images/LandingPage/dropdown.png"></span>
+                        </div>
+
+                        <div>
+                            <button class="search-btn" mat-raised-button>Earnings</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+        <div class="estimate-holder d-flex">
+            <div class="text">Your estimated earnings $2583</div> &nbsp;
+            <div class="a-year">a year</div>
+        </div>
+    </div>
+
+</section>
+
+<footer>
+
+    <div class="footer d-flex">
+        <div class="col-lg-3">
+            <div class="logo">
+                <img src="./../../../../assets/images/LandingPage/ParkOnMyDriveLogo.png">
+            </div>
+
+            <div class="contact-info"><span><img src="./../../../../assets/images/LandingPage/phone.png"></span> &nbsp; <span>+91 84084 93005</span></div>
+            <div class="contact-info"><span><img src="./../../../../assets/images/LandingPage/email.png"></span> &nbsp; <span>+91 84084 93005</span></div>
+
+        </div>
+        <div class="col-lg-3">
+            <div class="heading">
+                <h3>How It Works</h3>
+            </div>
+
+            <ul>
+                <li>Search form any where</li>
+                <li>Book in advance or in demand</li>
+                <li>Park with confidence</li>
+            </ul>
+        </div>
+        <div class="col-lg-2">
+            <div class="heading">
+                <h3>Popular Locations</h3>
+            </div>
+
+            <ul>
+                <li>Location 1</li>
+                <li>Location 2</li>
+                <li>Location 3</li>
+            </ul>
+        </div>
+        <div class="col-lg-2">
+            <div class="heading">
+                <h3>Company</h3>
+            </div>
+
+            <ul>
+                <li>Company 1</li>
+                <li>Company 2</li>
+                <li>Company 3</li>
+            </ul>
+        </div>
+        <div class="col-lg-2">
+            <div class="heading">
+                <h3>Help</h3>
+            </div>
+
+            <ul>
+                <li>Text 1</li>
+                <li>Text 2</li>
+                <li>Text 3</li>
+            </ul>
+        </div>
+    </div>
+
+</footer>
