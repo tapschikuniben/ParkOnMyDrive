@@ -17,6 +17,7 @@ import { MapPageDetailComponent } from './map-page-detail/map-page-detail.compon
 import { ReservationPageComponent } from './reservation-page/reservation-page.component';
 import { PaymentPageComponent } from './payment-page/payment-page.component';
 import { VehiclePageComponent } from './vehicle-page/vehicle-page.component';
+import { NgbCarouselModule } from '@ng-bootstrap/ng-bootstrap';
 
 
 
@@ -42,7 +43,8 @@ import { VehiclePageComponent } from './vehicle-page/vehicle-page.component';
     MatSelectModule,
     MatInputModule,
     MatStepperModule,
-    MatCardModule
+    MatCardModule,
+    NgbCarouselModule,
   ]
 })
 export class WebsiteModule { }
