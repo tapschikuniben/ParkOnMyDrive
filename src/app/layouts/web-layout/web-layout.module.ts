@@ -5,6 +5,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
 import { WebLayoutComponent } from './web-layout/web-layout.component';
 import { WebsiteModule } from 'src/app/views/website/website.module';
+import { MatToolbarModule } from '@angular/material/toolbar';
 
 
 
@@ -17,7 +18,9 @@ import { WebsiteModule } from 'src/app/views/website/website.module';
     WebLayoutRoutingModule,
     BrowserModule,
     FormsModule,
-    WebsiteModule
+    WebsiteModule,
+
+    MatToolbarModule,
   ]
 })
 export class WebLayoutModule { }

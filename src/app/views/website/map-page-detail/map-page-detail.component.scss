@@ -1,0 +1,176 @@
+.parking-details {
+    border: #EBEBEB 2px solid;
+    border-radius: 16px;
+    padding: 20px;
+}
+
+.input-bundle {
+    background-color: #F3F3F3;
+    border-radius: 8px;
+    padding: 5px 15px;
+}
+
+.input-bundle input {
+    background-color: #F3F3F3;
+    border: none;
+    box-shadow: none;
+}
+
+.filter-btn {
+    background-color: #FD7C0A;
+    border-radius: 4px;
+    border: none;
+    padding: 16px 22px;
+    color: #ffffff;
+    font-family: 'Montserrat-Medium';
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.container {
+    max-width: 95%;
+    margin-top: 50px;
+}
+
+.container .left {
+    width: 65%;
+}
+
+.container .right {
+    width: 35%;
+    padding: 0 0 20px 0;
+}
+
+.to {
+    font-family: 'Montserrat-Medium';
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.more-details {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    box-shadow: 0px 14px 20px rgba(0, 0, 0, 0.07);
+}
+
+.more-details .top {
+    width: 100%;
+}
+
+.more-details .top .header {
+    color: #000000;
+    font-family: 'Montserrat-Bold';
+    font-size: 16px;
+    line-height: 19px;
+    width: 92%;
+}
+
+hr {
+    border-top: 3px solid #FD7C0A;
+    border-radius: 5px;
+    margin-bottom: 0;
+}
+
+.dates-holder {
+    background: linear-gradient(180deg, #F5F5F5 0%, rgba(242, 242, 242, 0.31) 100%);
+    padding: 40px;
+}
+
+.dates {
+    margin-bottom: 20px;
+}
+
+.dates .start-date {
+    width: 50%;
+    border-right: 1px solid #666666;
+}
+
+.dates .monthly-cost {
+    width: 50%;
+    border-left: 1px solid #666666;
+}
+
+.dates .header {
+    font-family: 'Montserrat-SemiBold';
+    font-size: 16px;
+    line-height: 19px;
+    color: #858585;
+    margin-bottom: 5px;
+}
+
+.dates .value {
+    font-family: 'Montserrat-SemiBold';
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.book-security-btn {
+    background-color: #FD7C0A;
+    border-radius: 4px;
+    border: none;
+    padding: 16px 22px;
+    color: #ffffff;
+    font-family: 'Montserrat-SemiBold';
+    font-size: 16px;
+    line-height: 19px;
+    width: 100%;
+}
+
+.buttons-holder {
+    width: 92%;
+    margin-bottom: 20px;
+}
+
+.buttons-holder button {
+    border-radius: 4px;
+    border: none;
+    padding: 16px 22px;
+    font-family: 'Montserrat-SemiBold';
+    font-size: 16px;
+    line-height: 19px;
+    width: calc((100% / 3) - 20px);
+}
+
+.buttons-holder .overview-btn {
+    background-color: #0C0C0C;
+    color: #ffffff;
+}
+
+.buttons-holder .review-btn {
+    background-color: #ffffff;
+    color: #201C19;
+    border: 2px solid #0C0C0C;
+}
+
+.buttons-holder .park-btn {
+    background-color: #ffffff;
+    color: #201C19;
+    border: 2px solid #0C0C0C;
+}
+
+.more-details .img-holder .img {
+    width: 92%;
+    margin-top: 10px;
+}
+
+.streetview .subheader {
+    font-family: 'Montserrat-Regular';
+    font-size: 16px;
+    line-height: 19px;
+    color: #FD7C0A;
+    text-decoration: underline;
+}
+
+.streetview p {
+    font-family: 'Montserrat-Regular';
+    font-size: 16px;
+    line-height: 19px;
+    color: #858585;
+}
+
+.streetview-holder .streetview {
+    width: 92%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}

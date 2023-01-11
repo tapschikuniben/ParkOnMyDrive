@@ -11,12 +11,23 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { MatSelectModule } from '@angular/material/select';
 import { MatInputModule } from '@angular/material/input';
 import { MatStepperModule } from '@angular/material/stepper';
+import { MapPageComponent } from './map-page/map-page.component';
+import { MatCardModule } from '@angular/material/card';
+import { MapPageDetailComponent } from './map-page-detail/map-page-detail.component';
+import { ReservationPageComponent } from './reservation-page/reservation-page.component';
+import { PaymentPageComponent } from './payment-page/payment-page.component';
+import { VehiclePageComponent } from './vehicle-page/vehicle-page.component';
 
 
 
 @NgModule({
   declarations: [
-    LandingPageComponent
+    LandingPageComponent,
+    MapPageComponent,
+    MapPageDetailComponent,
+    ReservationPageComponent,
+    PaymentPageComponent,
+    VehiclePageComponent
   ],
   imports: [
     CommonModule,
@@ -30,7 +41,8 @@ import { MatStepperModule } from '@angular/material/stepper';
     MatDatepickerModule,
     MatSelectModule,
     MatInputModule,
-    MatStepperModule
+    MatStepperModule,
+    MatCardModule
   ]
 })
 export class WebsiteModule { }
