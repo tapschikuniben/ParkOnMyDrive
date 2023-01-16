@@ -153,3 +153,72 @@
     margin-bottom: 0;
     margin-bottom: 20px;
 }
+
+@media only screen and (max-width: 600px) {
+    .container {
+        max-width: 100%;
+    }
+    .buttons-holder {
+        display: block !important;
+    }
+    .buttons-holder button {
+        font-size: 14px;
+        line-height: 19px;
+        width: 100%;
+        margin: 0 0 10px 0;
+    }
+    .container .payment {
+        padding: 5px;
+    }
+    .container .payment .header h3 {
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .container .payment .payment-detail h4 {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .detail-holder h4 {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .pricing .left {
+        font-size: 14px;
+        line-height: 19px;
+    }
+    .pricing .right {
+        font-size: 14px;
+        line-height: 19px;
+    }
+    .discount {
+        width: 100%;
+        display: block !important;
+    }
+    .discount .left {
+        font-size: 14px;
+        line-height: 19px;
+        margin-right: 10px;
+    }
+    .discount .right {
+        width: 100%;
+    }
+    .discount .right input {
+        width: 80%;
+    }
+    .pricing-bold .left {
+        font-size: 14px;
+        line-height: 19px;
+    }
+    .pricing-bold .right {
+        font-size: 14px;
+        line-height: 19px;
+    }
+    .apply-btn {
+        font-size: 14px;
+        line-height: 19px;
+    }
+    .discount input::placeholder {
+        font-size: 14px;
+        line-height: 19px;
+    }
+}

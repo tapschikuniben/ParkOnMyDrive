@@ -28,10 +28,14 @@ mat-toolbar {
     background-color: #FD7C0A;
     color: #ffffff;
     border: none;
+    display: none !important;
 }
 
 @media only screen and (max-width: 600px) {
     .nav {
         display: none;
+    }
+    .menu-btn {
+        display: block !important;
     }
 }

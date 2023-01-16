@@ -436,9 +436,6 @@ mat-vertical-stepper p {
     .download-app {
         margin-top: 50px;
     }
-    .section-container .left img {
-        width: 100%;
-    }
     .section-container-info {
         display: block !important;
         padding: 10px;
@@ -476,6 +473,14 @@ mat-vertical-stepper p {
     }
     .top-slider-bottom .bottom .input-bundle-holder {
         display: block !important;
+    }
+    .bottom-slider-bottom .bottom .input-bundle-holder {
+        display: block !important;
+    }
+    .bottom-slider-bottom .bottom .input-bundle-holder .input-bundle {
+        width: 100%;
+        margin-bottom: 10px;
+        margin-top: 10px;
     }
     .footer .foot-section {
         margin-bottom: 50px;

@@ -32,12 +32,7 @@
     margin-top: 50px;
 }
 
-.container .left {
-    width: 65%;
-}
-
 .container .right {
-    width: 35%;
     padding: 0 0 20px 0;
 }
 
@@ -115,4 +110,44 @@ hr {
     font-family: 'Montserrat-Medium';
     font-size: 16px;
     line-height: 19px;
+}
+
+@media only screen and (max-width: 600px) {
+    .container {
+        max-width: 100%;
+    }
+    .container .right {
+        padding: 0 !important;
+    }
+    .container .right img {
+        width: 100%;
+    }
+    .filter-btn {
+        font-size: 14px;
+        line-height: 19px;
+    }
+    mat-card-content .header {
+        font-size: 14px;
+        line-height: 19px;
+    }
+    .amount .value {
+        font-size: 18px;
+        line-height: 25px;
+    }
+    .amount .text {
+        font-size: 14px;
+        line-height: 19px;
+    }
+    .card-bottom span {
+        font-size: 14px;
+        line-height: 19px;
+    }
+    .book-btn {
+        font-size: 14px;
+        line-height: 19px;
+    }
+    .to {
+        font-size: 14px;
+        line-height: 19px;
+    }
 }
