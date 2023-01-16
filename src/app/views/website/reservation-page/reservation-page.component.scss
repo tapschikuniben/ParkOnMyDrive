@@ -5,11 +5,11 @@
 }
 
 .section-container .left {
-    width: 55%;
+    // width: 55%;
 }
 
 .section-container .right {
-    width: 45%;
+    // width: 45%;
     background-color: #F8F8F8;
 }
 
@@ -305,4 +305,111 @@
 
 .pricing-holder {
     padding: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    .section-container .left {
+        margin-bottom: 50px;
+    }
+    .left .parking-session {
+        margin: 5px;
+        padding: 5px;
+    }
+    .container .payment {
+        padding: 5px;
+    }
+    .book {
+        padding: 5px;
+    }
+    .container .payment .header h3 {
+        font-size: 14px;
+        line-height: 19px;
+    }
+    .container .payment .header h4 {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .container .payment .payment-detail h4 {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .detail-holder h4 {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .pricing .left {
+        font-size: 14px;
+        line-height: 19px;
+    }
+    .pricing .text {
+        font-size: 14px;
+        line-height: 19px;
+    }
+    .discount .left {
+        font-size: 14px;
+        line-height: 19px;
+    }
+    .pricing-bold .left {
+        font-size: 14px;
+        line-height: 19px;
+    }
+    .pricing-bold .text {
+        font-size: 14px;
+        line-height: 19px;
+    }
+    .book .book-detail h4 {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .book-detail-holder .book-detail .book-info .tick-holder {
+        display: flex;
+    }
+    .book-detail-holder .book-detail .book-info .tick-holder img {
+        width: 30px;
+        height: 30px;
+    }
+    .book-detail-holder .book-detail .book-info span {
+        font-size: 14px;
+        line-height: 19px;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        margin-left: 10px;
+    }
+    .book-detail-holder .book-detail .bottom h4 {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .left .parking-session .header h3 {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .left .parking-session .header h4 {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .container .parking-session .session-detail h4 {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .session-holder .header h4 {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .detail-holder h4 {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .select-date-btn {
+        font-size: 14px;
+        line-height: 19px;
+    }
+    .container .session-detail .header h4 {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .container .session-holder .date h4 {
+        font-size: 16px;
+        line-height: 20px;
+    }
 }

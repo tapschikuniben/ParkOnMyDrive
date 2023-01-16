@@ -1,5 +1,5 @@
 import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
+import { CommonModule, HashLocationStrategy, LocationStrategy } from '@angular/common';
 import { LandingPageComponent } from './landing-page/landing-page.component';
 import { WebsiteRoutingModule } from './website.routing';
 import { MatToolbarModule } from '@angular/material/toolbar';
@@ -45,6 +45,8 @@ import { NgbCarouselModule } from '@ng-bootstrap/ng-bootstrap';
     MatStepperModule,
     MatCardModule,
     NgbCarouselModule,
-  ]
+  ],
+  // providers: [{ provide: LocationStrategy, useClass: HashLocationStrategy }],
+  providers: [],
 })
 export class WebsiteModule { }

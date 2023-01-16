@@ -6,6 +6,8 @@ import { FormsModule } from '@angular/forms';
 import { WebLayoutComponent } from './web-layout/web-layout.component';
 import { WebsiteModule } from 'src/app/views/website/website.module';
 import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatMenuModule } from '@angular/material/menu';
+import { MatIconModule } from '@angular/material/icon';
 
 
 
@@ -21,6 +23,8 @@ import { MatToolbarModule } from '@angular/material/toolbar';
     WebsiteModule,
 
     MatToolbarModule,
+    MatMenuModule,
+    MatIconModule
   ]
 })
 export class WebLayoutModule { }

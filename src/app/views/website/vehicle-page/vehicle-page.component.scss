@@ -18,8 +18,6 @@
     margin-top: 8px;
 }
 
-.container .vehicle .vehicle-detail {}
-
 .container .vehicle .vehicle-detail h4 {
     color: #000000;
     font-family: 'Montserrat-SemiBold';
@@ -67,11 +65,11 @@
 }
 
 .detail-holder .left {
-    width: 55%;
+    // width: 55%;
 }
 
 .detail-holder .right {
-    width: 40%;
+    // width: 40%;
     padding: 0 20px;
 }
 
@@ -101,4 +99,52 @@
     font-size: 16px;
     line-height: 19px;
     width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+    .container {
+        max-width: 100%;
+    }
+    .container .vehicle {
+        padding: 5px;
+    }
+    .detail-holder .left {
+        margin-bottom: 50px;
+    }
+    .detail-holder .right {
+        padding: 0 5px;
+    }
+    .detail-holder {
+        padding: 5px;
+    }
+    .container .vehicle .header h3 {
+        font-size: 20px;
+        line-height: 29px;
+    }
+    .container .vehicle .vehicle-detail h4 {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .input-bundle input::placeholder {
+        font-size: 14px;
+        line-height: 19px;
+    }
+    .find-btn {
+        font-size: 14px;
+        line-height: 19px;
+        width: 80px;
+        padding: 5px;
+    }
+    .detail-holder .right h4 {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .detail-holder .right p {
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .proceed-btn {
+        font-size: 14px;
+        line-height: 19px;
+    }
 }
