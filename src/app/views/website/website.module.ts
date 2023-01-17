@@ -46,7 +46,7 @@ import { NgbCarouselModule } from '@ng-bootstrap/ng-bootstrap';
     MatCardModule,
     NgbCarouselModule,
   ],
-  // providers: [{ provide: LocationStrategy, useClass: HashLocationStrategy }],
-  providers: [],
+  providers: [{ provide: LocationStrategy, useClass: HashLocationStrategy }],
+  // providers: [],
 })
 export class WebsiteModule { }
